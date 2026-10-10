@@ -24,6 +24,10 @@ Get-FileHash .\scatGUI-v1.42-2023-06-23.zip -Algorithm SHA256
 |---|---|---|
 | 1.42 | `scatGUI-v1.42-2023-06-23.zip` | `aa239cb76142d6a9ce34ba65a96911e6784fb81daace0b442d8103891628f689` |
 | 1.40 | `scatGUI-v1.40-2022-10-07.zip` | `0d16d3f5c321714fef71fd4dbf421bc280be11023c29c37fbe20e236bd60433e` |
+| 1.40 (詳細) | `scatGUI-v1.40-detail-4HSiC-EN.pdf` | `62cf74476617222e3ca7e1b8d61b3de5da1ac1430e0f2ee1e98a43fb7486d7c7` |
+| 1.40 (詳細) | `scatGUI-v1.40-detail-ManyBody-EN.pdf` | `0cda871b0d9277fa484a50ed165b9d3c8099092c8e0244031cd75b42eb19cf7a` |
+| 1.40 (詳細) | `scatGUI-v1.40-detail-4HSiC-JP.pdf` | `12b2a7919144f4b251726b1b45227c8de9d18aa73c79de792d1b91977abc76b0` |
+| 1.40 (詳細) | `scatGUI-v1.40-detail-ManyBody-JP.pdf` | `72adca4d44e1164f83ea8ddfb4e6a90118dafc76e986c77052da1908d1fa3513` |
 | 1.38 | `scatGUI-v1.38-2022-01-21.zip` | `5d73033ba9b37866d17ee3960f7478443ebe79b9d04d865a75363f433344b004` |
 | 1.37 | `scatGUI-v1.37-2021-07-09.exe` | `04f5729e1cd3562dccf26e739009f5736a683293687d9b1311716668fe085105` |
 | 1.33 | `scatGUI-v1.33-2021-05-10.zip` | `431b6267a15b7aa41bc6ff30f854d71031107fab16ca5af2d489e9bb118bb6d8` |
