@@ -33,6 +33,23 @@ Get-FileHash .\scatGUI-v1.42-2023-06-23.zip -Algorithm SHA256
 | 1.26 | `scatGUI-v1.26-2021-03-18.zip` | `413f7a3a129062de2ad4ebcd8768e389895d1be2c7a2fb78a27b4d10997d8d07` |
 | 1.24 | `scatGUI-v1.24-2021-03-16.zip` | `9bcdc57d8f1485802d55d41cc36276af6af8db109508f07c6109e8b77864d47e` |
 
+## 版の履歴
+
+日付は旧ページに掲載していた日です。各版の変更点はリリースノートを参照してください。
+
+| 版 | 日付 |
+|---|---|
+| [1.42](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.42) | 2023-06-23 |
+| [1.40](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.40) | 2022-10-07 |
+| [1.38](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.38) | 2022-01-18 |
+| [1.37](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.37) | 2021-07-09 |
+| [1.33](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.33) | 2021-05-10 |
+| [1.31](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.31) | 2021-04-22 |
+| [1.30](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.30) | 2021-04-21 |
+| [1.27](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.27) | 2021-04-07 |
+| [1.26](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.26) | 2021-03-19 |
+| [1.24](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.24) | 2021-03-16 |
+
 ## 配布場所の移設について
 
 これらの版は、2021〜2023 年に研究所のウェブサイトで公開してきたものです。2026 年 10 月に配布場所をこの GitHub リポジトリへ移しました。ファイルの中身は変えていません (当時の原本とバイト一致を確認済み)。
