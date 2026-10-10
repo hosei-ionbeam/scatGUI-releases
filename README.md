@@ -1,24 +1,18 @@
-# scatGUI — イオン注入 & チャネリングシミュレーションソフトウェア / ion implantation & channeling simulation software
+**English** | [日本語](README.ja.md)
 
-法政大学 イオンビーム工学研究所 / Research Center of Ion Beam Technology, Hosei University
+# scatGUI — ion implantation & channeling simulation software
 
-作成者 / Author: 西村智朗 / Tomoaki Nishimura ( t-nishi ( a ) hosei.ac.jp )
+Research Center of Ion Beam Technology, Hosei University
 
----
+Author: Tomoaki Nishimura ( t-nishi ( a ) hosei.ac.jp )
 
-## ダウンロード / Download
+## Download
 
-配布ファイルは [Releases](https://github.com/hosei-ionbeam/scatGUI-releases/releases) から入手してください。最新版は **v1.42 (2023-06-23)** です。
-
-Download the installer packages from [Releases](https://github.com/hosei-ionbeam/scatGUI-releases/releases). The latest version is **v1.42 (2023-06-23)**.
-
-このリポジトリには配布ファイルとその説明だけを置いています。ソースコードは含みません。
+Download the packages from [Releases](https://github.com/hosei-ionbeam/scatGUI-releases/releases). The latest version is **v1.42 (2023-06-23)**.
 
 This repository hosts the distribution packages and their notes only. It contains no source code.
 
-## ファイルの照合 / Verifying the files
-
-ダウンロードしたファイルが改ざんされていないことは、SHA-256 を下の表と比べて確認できます。
+## Verifying the files
 
 You can confirm that a downloaded file has not been altered by comparing its SHA-256 with the table below.
 
@@ -26,7 +20,7 @@ You can confirm that a downloaded file has not been altered by comparing its SHA
 Get-FileHash .\scatGUI-v1.42-2023-06-23.zip -Algorithm SHA256
 ```
 
-| 版 / Version | ファイル / File | SHA-256 |
+| Version | File | SHA-256 |
 |---|---|---|
 | 1.42 | `scatGUI-v1.42-2023-06-23.zip` | `aa239cb76142d6a9ce34ba65a96911e6784fb81daace0b442d8103891628f689` |
 | 1.40 | `scatGUI-v1.40-2022-10-07.zip` | `0d16d3f5c321714fef71fd4dbf421bc280be11023c29c37fbe20e236bd60433e` |
@@ -39,13 +33,11 @@ Get-FileHash .\scatGUI-v1.42-2023-06-23.zip -Algorithm SHA256
 | 1.26 | `scatGUI-v1.26-2021-03-18.zip` | `413f7a3a129062de2ad4ebcd8768e389895d1be2c7a2fb78a27b4d10997d8d07` |
 | 1.24 | `scatGUI-v1.24-2021-03-16.zip` | `9bcdc57d8f1485802d55d41cc36276af6af8db109508f07c6109e8b77864d47e` |
 
-## 配布場所の移設について / About the move
+## About the move
 
-これらの版は、2021〜2023 年から研究所のウェブサイトで公開してきたものです。2026 年 10 月に配布場所をこの GitHub リポジトリへ移しました。ファイルの中身は変えていません (当時の原本とバイト一致を確認済み)。
+These versions were originally distributed on the Research Center's website between 2021 and 2023. In October 2026 the distribution was moved to this GitHub repository. The files are unchanged (verified byte-identical to the original builds).
 
-These versions were originally distributed on the Research Center's website from 2021–2023. In October 2026 the distribution was moved to this GitHub repository. The files are unchanged (verified byte-identical to the original builds).
-
-## 参考文献 / References
+## References
 
 1. Tomoaki Nishimura and Tetsu Kachi, "Simulation of channeled implantation of magnesium ions in gallium nitride", Applied Physics Express 14, 116502 (2021). https://doi.org/10.35848/1882-0786/ac2a55
 2. Tomoaki Nishimura, Kiyoji Ikeda, and Tetsu Kachi, "Channeled implantation of magnesium ions in gallium nitride for deep and low-damage doping", Applied Physics Express 14, 066503 (2021). https://doi.org/10.35848/1882-0786/ac039e
