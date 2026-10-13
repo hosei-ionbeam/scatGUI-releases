@@ -62,4 +62,5 @@ These versions were originally distributed on the Research Center's website betw
 
 1. Tomoaki Nishimura and Tetsu Kachi, "Simulation of channeled implantation of magnesium ions in gallium nitride", Applied Physics Express 14, 116502 (2021). https://doi.org/10.35848/1882-0786/ac2a55
 2. Tomoaki Nishimura, Kiyoji Ikeda, and Tetsu Kachi, "Channeled implantation of magnesium ions in gallium nitride for deep and low-damage doping", Applied Physics Express 14, 066503 (2021). https://doi.org/10.35848/1882-0786/ac039e
-3. T. Nishimura, M. Satoh, K. Nomoto, T. Nakamura, T. Mishima, "Site identification of GaN using preferential scattering effect along [1-100] axis", Nuclear Instruments and Methods in Physics Research B 268 (2010) 1942–1944.
+3. Tomoaki Nishimura and Kazuhiro Mochizuki, "Electronic-stopping and damage parameters for random and channeled implantation of B, N, O, and Si into GaN(0001)", Japanese Journal of Applied Physics 65, 170901 (2026). https://doi.org/10.35848/1347-4065/ae9c12
+4. T. Nishimura, M. Satoh, K. Nomoto, T. Nakamura, T. Mishima, "Site identification of GaN using preferential scattering effect along [1-100] axis", Nuclear Instruments and Methods in Physics Research B 268 (2010) 1942–1944.
