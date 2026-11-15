@@ -56,6 +56,15 @@ Dates are those listed on the old website. For the changes in each version, see 
 | [1.26](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.26) | 2021-03-19 |
 | [1.24](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.24) | 2021-03-16 |
 
+## History
+
+scatGUI is the graphical front end of scat, a binary-collision-approximation code for ion trajectories in crystals that the author has been developing since 1997.
+
+- 1997 to around 2009: used for medium-energy ion scattering (MEIS) analysis (e.g. [5]).
+- 2010–2018: extended to Rutherford backscattering/channeling (RBS/C) analysis; [4] refers to it as SCAT version 2.4.
+- From 2019: extended to ion implantation — depth profiles of implanted ions (March 2019), then damage generation and multi-step implantation that takes the accumulated damage into account (2020) [1–3].
+- The GUI (scatGUI) was first built in November 2020 and was distributed on the Research Center's website from v1.24 (March 2021) to v1.42 (June 2023).
+
 ## About the move
 
 These versions were originally distributed on the Research Center's website between 2021 and 2023. In October 2026 the distribution was moved to this GitHub repository. The files are unchanged (verified byte-identical to the original builds).
@@ -66,3 +75,4 @@ These versions were originally distributed on the Research Center's website betw
 2. Tomoaki Nishimura, Kiyoji Ikeda, and Tetsu Kachi, "Channeled implantation of magnesium ions in gallium nitride for deep and low-damage doping", Applied Physics Express 14, 066503 (2021). https://doi.org/10.35848/1882-0786/ac039e
 3. Tomoaki Nishimura and Kazuhiro Mochizuki, "Electronic-stopping and damage parameters for random and channeled implantation of B, N, O, and Si into GaN(0001)", Japanese Journal of Applied Physics 65, 170901 (2026). https://doi.org/10.35848/1347-4065/ae9c12
 4. T. Nishimura, M. Satoh, K. Nomoto, T. Nakamura, T. Mishima, "Site identification of GaN using preferential scattering effect along [1-100] axis", Nuclear Instruments and Methods in Physics Research B 268 (2010) 1942–1944.
+5. T. Nishimura, A. Ikeda, H. Namba, Y. Kido, "Surface relaxation and rumpling of RbI(001) determined by medium energy ion scattering", Surface Science 411 (1998) L834–L838. https://doi.org/10.1016/S0039-6028(98)00403-8

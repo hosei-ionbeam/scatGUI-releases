@@ -56,6 +56,15 @@ Get-FileHash .\scatGUI-v1.42-2023-06-23.zip -Algorithm SHA256
 | [1.26](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.26) | 2021-03-19 |
 | [1.24](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.24) | 2021-03-16 |
 
+## 沿革
+
+scatGUI は、結晶中のイオンの軌道を二体衝突近似で計算するコード scat の GUI です。scat は作成者が 1997 年から開発しています。
+
+- 1997〜2009 年頃: 中エネルギーイオン散乱 (MEIS) 分析に使用 (例: 文献 5)
+- 2010〜2018 年: ラザフォード後方散乱・チャネリング (RBS/C) の解析に拡張 (文献 4 では SCAT version 2.4 として記載)
+- 2019 年〜: イオン注入の計算に拡張。注入イオンの深さ分布 (2019 年 3 月)、続いて欠陥の生成と、蓄積した欠陥を考慮する多段注入 (2020 年) (文献 1〜3)
+- GUI (scatGUI) は 2020 年 11 月に作成し、v1.24 (2021 年 3 月) から v1.42 (2023 年 6 月) まで研究所のウェブサイトで公開
+
 ## 配布場所の移設について
 
 これらの版は、2021〜2023 年に研究所のウェブサイトで公開してきたものです。2026 年 10 月に配布場所をこの GitHub リポジトリへ移しました。ファイルの中身は変えていません (当時の原本とバイト一致を確認済み)。
@@ -66,3 +75,4 @@ Get-FileHash .\scatGUI-v1.42-2023-06-23.zip -Algorithm SHA256
 2. Tomoaki Nishimura, Kiyoji Ikeda, and Tetsu Kachi, "Channeled implantation of magnesium ions in gallium nitride for deep and low-damage doping", Applied Physics Express 14, 066503 (2021). https://doi.org/10.35848/1882-0786/ac039e
 3. Tomoaki Nishimura and Kazuhiro Mochizuki, "Electronic-stopping and damage parameters for random and channeled implantation of B, N, O, and Si into GaN(0001)", Japanese Journal of Applied Physics 65, 170901 (2026). https://doi.org/10.35848/1347-4065/ae9c12
 4. T. Nishimura, M. Satoh, K. Nomoto, T. Nakamura, T. Mishima, "Site identification of GaN using preferential scattering effect along [1-100] axis", Nuclear Instruments and Methods in Physics Research B 268 (2010) 1942–1944.
+5. T. Nishimura, A. Ikeda, H. Namba, Y. Kido, "Surface relaxation and rumpling of RbI(001) determined by medium energy ion scattering", Surface Science 411 (1998) L834–L838. https://doi.org/10.1016/S0039-6028(98)00403-8
