@@ -8,7 +8,7 @@
 
 ## ダウンロード
 
-配布ファイルは [Releases](https://github.com/hosei-ionbeam/scatGUI-releases/releases) から入手してください。最新版は **v1.42 (2023-06-23)** です。
+配布ファイルは [Releases](https://github.com/hosei-ionbeam/scatGUI-releases/releases) から入手してください。最新版は **v1.48 (2026-11-18)** です。
 
 このリポジトリには配布ファイルとその説明だけを置いています。ソースコードは含みません。
 
@@ -19,11 +19,12 @@
 ダウンロードしたファイルが改ざんされていないことは、SHA-256 を下の表と比べて確認できます。
 
 ```powershell
-Get-FileHash .\scatGUI-v1.42-2023-06-23.zip -Algorithm SHA256
+Get-FileHash .\scatGUI-v1.48-2026-11-18.zip -Algorithm SHA256
 ```
 
 | 版 | ファイル | SHA-256 |
 |---|---|---|
+| 1.48 | `scatGUI-v1.48-2026-11-18.zip` | `e866fe118db5a9870e35ddbe75651f4060784abc1d079a1350273b29f11f2bf8` |
 | 1.42 | `scatGUI-v1.42-2023-06-23.zip` | `aa239cb76142d6a9ce34ba65a96911e6784fb81daace0b442d8103891628f689` |
 | 1.40 | `scatGUI-v1.40-2022-10-07.zip` | `0d16d3f5c321714fef71fd4dbf421bc280be11023c29c37fbe20e236bd60433e` |
 | 1.40 (詳細) | `scatGUI-v1.40-detail-4HSiC-EN.pdf` | `62cf74476617222e3ca7e1b8d61b3de5da1ac1430e0f2ee1e98a43fb7486d7c7` |
@@ -41,10 +42,11 @@ Get-FileHash .\scatGUI-v1.42-2023-06-23.zip -Algorithm SHA256
 
 ## 版の履歴
 
-日付は旧ページに掲載していた日です。各版の変更点はリリースノートを参照してください。
+1.42 までの日付は旧ページに掲載していた日、1.48 以降はここで公開した日です。各版の変更点はリリースノートを参照してください。
 
 | 版 | 日付 |
 |---|---|
+| [1.48](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.48) | 2026-11-18 |
 | [1.42](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.42) | 2023-06-23 |
 | [1.40](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.40) | 2022-10-07 |
 | [1.38](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.38) | 2022-01-18 |
@@ -64,10 +66,11 @@ scatGUI は、結晶中のイオンの軌道を二体衝突近似で計算する
 - 2010〜2018 年: ラザフォード後方散乱・チャネリング (RBS/C) の解析に拡張 (文献 4 では SCAT version 2.4 として記載)
 - 2019 年〜: イオン注入の計算に拡張。注入イオンの深さ分布 (2019 年 3 月)、続いて欠陥の生成と、蓄積した欠陥を考慮する多段注入 (2020 年) (文献 1〜3)
 - GUI (scatGUI) は 2020 年 11 月に作成し、v1.24 (2021 年 3 月) から v1.42 (2023 年 6 月) まで研究所のウェブサイトで公開
+- v1.48 (2026 年 11 月) からはこのリポジトリで直接公開。計算の並列化と、CIF ファイルからのターゲット構造の作成を追加
 
 ## 配布場所の移設について
 
-これらの版は、2021〜2023 年に研究所のウェブサイトで公開してきたものです。2026 年 10 月に配布場所をこの GitHub リポジトリへ移しました。ファイルの中身は変えていません (当時の原本とバイト一致を確認済み)。
+これらの版は、2021〜2023 年に研究所のウェブサイトで公開してきたものです。2026 年 10 月に配布場所をこの GitHub リポジトリへ移しました。ファイルの中身は変えていません (当時の原本とバイト一致を確認済み)。v1.48 以降はここで直接公開しています。
 
 ## 参考文献
 

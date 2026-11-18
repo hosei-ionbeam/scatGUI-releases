@@ -8,7 +8,7 @@ Author: Tomoaki Nishimura, t-nishi (a) hosei.ac.jp
 
 ## Download
 
-Download the packages from [Releases](https://github.com/hosei-ionbeam/scatGUI-releases/releases). The latest version is **v1.42 (2023-06-23)**.
+Download the packages from [Releases](https://github.com/hosei-ionbeam/scatGUI-releases/releases). The latest version is **v1.48 (2026-11-18)**.
 
 This repository hosts the distribution packages and their notes only. It contains no source code.
 
@@ -19,11 +19,12 @@ The "Source code (zip)" and "Source code (tar.gz)" links under Assets are added 
 You can confirm that a downloaded file has not been altered by comparing its SHA-256 with the table below.
 
 ```powershell
-Get-FileHash .\scatGUI-v1.42-2023-06-23.zip -Algorithm SHA256
+Get-FileHash .\scatGUI-v1.48-2026-11-18.zip -Algorithm SHA256
 ```
 
 | Version | File | SHA-256 |
 |---|---|---|
+| 1.48 | `scatGUI-v1.48-2026-11-18.zip` | `e866fe118db5a9870e35ddbe75651f4060784abc1d079a1350273b29f11f2bf8` |
 | 1.42 | `scatGUI-v1.42-2023-06-23.zip` | `aa239cb76142d6a9ce34ba65a96911e6784fb81daace0b442d8103891628f689` |
 | 1.40 | `scatGUI-v1.40-2022-10-07.zip` | `0d16d3f5c321714fef71fd4dbf421bc280be11023c29c37fbe20e236bd60433e` |
 | 1.40 (detail) | `scatGUI-v1.40-detail-4HSiC-EN.pdf` | `62cf74476617222e3ca7e1b8d61b3de5da1ac1430e0f2ee1e98a43fb7486d7c7` |
@@ -41,10 +42,11 @@ Get-FileHash .\scatGUI-v1.42-2023-06-23.zip -Algorithm SHA256
 
 ## Version history
 
-Dates are those listed on the old website. For the changes in each version, see its release notes.
+Dates up to 1.42 are those listed on the old website; 1.48 and later are the release dates here. For the changes in each version, see its release notes.
 
 | Version | Date |
 |---|---|
+| [1.48](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.48) | 2026-11-18 |
 | [1.42](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.42) | 2023-06-23 |
 | [1.40](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.40) | 2022-10-07 |
 | [1.38](https://github.com/hosei-ionbeam/scatGUI-releases/releases/tag/v1.38) | 2022-01-18 |
@@ -64,10 +66,11 @@ scatGUI is the graphical front end of scat, a binary-collision-approximation cod
 - 2010–2018: extended to Rutherford backscattering/channeling (RBS/C) analysis; [4] refers to it as SCAT version 2.4.
 - From 2019: extended to ion implantation — depth profiles of implanted ions (March 2019), then damage generation and multi-step implantation that takes the accumulated damage into account (2020) [1–3].
 - The GUI (scatGUI) was first built in November 2020 and was distributed on the Research Center's website from v1.24 (March 2021) to v1.42 (June 2023).
+- v1.48 (November 2026) is released directly in this repository. It adds parallel computation and building target structures from CIF files.
 
 ## About the move
 
-These versions were originally distributed on the Research Center's website between 2021 and 2023. In October 2026 the distribution was moved to this GitHub repository. The files are unchanged (verified byte-identical to the original builds).
+These versions were originally distributed on the Research Center's website between 2021 and 2023. In October 2026 the distribution was moved to this GitHub repository. The files are unchanged (verified byte-identical to the original builds). v1.48 and later are released here directly.
 
 ## References
 
